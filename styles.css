@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
+:root{
+  --text-color: #ffffff;
+  --card-front-color: #0ca761;
+  --card-back-color: #2bffae;
+}
+
+body {
+  background: url(assets/img/bg-desktop-green.webp);
+  font-family: Tomorrow;
+}
+
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+  }
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cartao {
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+  }
+  .cartao__conteudo p {
+    padding: 4rem;
+  }
